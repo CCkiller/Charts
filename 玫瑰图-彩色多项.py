@@ -15,15 +15,15 @@ color_series = ['#FAE927','#E9E416','#C9DA36','#9ECB3C','#6DBC49',
                 '#CF7B25','#CF7B25','#CF7B25']
 
 
-# TODO 使用sorted函数，将字典data按照value的大小降序排列
+#  使用sorted函数，将字典data按照value的大小降序排列
 data = sorted(data.items(),key = lambda item:item[1],reverse = True)
 
-# TODO 使用Pie()函数创建饼图对象赋值给变量pie
+#  使用Pie()函数创建饼图对象赋值给变量pie
 pie = Pie()
-# TODO 设置颜色为color_series
+#  设置颜色为color_series
 pie.set_colors(color_series)
 
-# TODO 给pie对象添加数据和配置
+#  给pie对象添加数据和配置
 # 将series_name设置为会员地区分布
 # 将data_pair设置为data
 # 设置radius为30%到100%
